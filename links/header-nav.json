@@ -1,0 +1,41 @@
+{
+    "items": [
+        {
+            "name": "Trading Artiklar",
+            "url": "trading-artiklar",
+            "subItems": [
+                {"name": "Lär dig trading", "url": "trading-artiklar/lar-dig-trading"},
+                {"name": "Analyser", "url": "trading-artiklar/analyser"},
+                {"name": "Recensioner - Tradingmäklare", "url": "trading-artiklar/valj-ratt-trading-maklare"}
+            ]
+        },
+        {
+            "name": "Kryptovalutor",
+            "url": "kryptovalutor",
+            "subItems": [
+                {"name": "Bitcoin", "url": "kryptovalutor/bitcoin"},
+                {"name": "Ethereum", "url": "kryptovalutor/ethereum"},
+                {"name": "Litecoin", "url": "kryptovalutor/litecoin"},
+                {"name": "Topplista på kryptomäklare", "url": "kryptovalutor/top-krypto-maklare"}
+            ]
+        },
+        {
+            "name": "Nyheter",
+            "url": "nyheter",
+            "subItems": [
+                {"name": "Tekniska nyheter", "url": "nyheter/teknisk-analys"},
+                {"name": "Fundamentala nyheter", "url": "nyheter/fundamental-analys"}
+            ]
+        },
+        {
+            "name": "Tradingverktyg",
+            "url": "tradingverktyg",
+            "subItems": [
+                {"name": "Risk-reward beräkning", "url": "tradingverktyg/risk-reward-berakning"},
+                {"name": "Ekonomisk kalender", "url": "tradingverktyg/ekonomisk-kalender"},
+                {"name": "Forex swap rate - valutahandel", "url": "tradingverktyg/forex-swap-rate"},
+                {"name": "Sentiment - hur ser börsklimatet ut", "url": "tradingverktyg/sentiment"}
+            ]
+        }
+    ]
+}
