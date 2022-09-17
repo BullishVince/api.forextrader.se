@@ -1,0 +1,15 @@
+{
+    "endpoint": "test/data",
+    "author": "vincent",
+    "publishedDate": "2022-09-18",
+    "sampleArray": [
+        {
+            "index": 0,
+            "name": "foo"
+        },
+        {
+            "index": 1,
+            "name": "baz"
+        }
+    ]
+}
