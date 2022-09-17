@@ -4,7 +4,13 @@
             "name": "Trading Artiklar",
             "url": "trading-artiklar",
             "subItems": [
-                {"name": "Lär dig trading", "url": "trading-artiklar/lar-dig-trading"},
+                {
+                    "name": "Lär dig trading", 
+                    "url": "trading-artiklar/lar-dig-trading",
+                    "subItems": [
+                        {"name": "Tre metoder för att analysera marknaden", "url": "trading-artiklar/lar-dig-trading/analysera-marknaden-metoder"}
+                    ]
+                },
                 {"name": "Analyser", "url": "trading-artiklar/analyser"},
                 {"name": "Recensioner - Tradingmäklare", "url": "trading-artiklar/valj-ratt-trading-maklare"}
             ]
