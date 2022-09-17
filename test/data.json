@@ -1,6 +1,5 @@
 {
-    "endpoint": "test/data",
-    "author": "vincent",
+    "endpoint": "test/data.json",
     "publishedDate": "2022-09-18",
     "sampleArray": [
         {
@@ -10,6 +9,10 @@
         {
             "index": 1,
             "name": "baz"
+        },
+        {
+            "index": 2,
+            "name": "wakanda"
         }
     ]
 }
