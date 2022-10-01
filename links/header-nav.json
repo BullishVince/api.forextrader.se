@@ -22,7 +22,9 @@
                 {"name": "Bitcoin", "url": "kryptovalutor/bitcoin"},
                 {"name": "Ethereum", "url": "kryptovalutor/ethereum"},
                 {"name": "Litecoin", "url": "kryptovalutor/litecoin"},
-                {"name": "Topplista på kryptomäklare", "url": "kryptovalutor/top-krypto-maklare"}
+                {"name": "Hathor (HTR)", "url": "kryptovalutor/hathor-htr-crypto-token"},
+                {"name": "Topplista på kryptomäklare", "url": "kryptovalutor/top-krypto-maklare"},
+                {"name": "Få gratis kryptovalutor", "url": "kryptovalutor/gratis-kryptovalutor"}
             ]
         },
         {
