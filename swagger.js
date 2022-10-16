@@ -4,9 +4,9 @@ var spec = {
         "version": "1.0.0",
         "title": "ForexTrader.se"
     },
-    "basePath": "/api.forextrader.se",
+    "basePath": "/api.forextrader.se/",
     "paths": {
-        "/links/header-nav.json": {
+        "links/header-nav.json": {
             "get": {
                 "summary": "Get links for header menu",
                 "operationId": "getHeaderNav",
