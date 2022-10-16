@@ -13,7 +13,10 @@
     <div id="swagger-ui"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.19.5/swagger-ui-bundle.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.19.5/swagger-ui-standalone-preset.js"> </script>
-    <script type="module" src="swagger.js"></script>
+    <script type="module">
+      import data from './swagger.json' assert {type: 'json'};
+      var spec = data;
+    </script>
     <script>
       window.onload = function() {
         const ui = SwaggerUIBundle({
