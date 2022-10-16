@@ -1,0 +1,52 @@
+var spec = {
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "ForexTrader.se"
+    },
+    "basePath": "/api.forextrader.se",
+    "paths": {
+        "/links/header-nav.json": {
+            "get": {
+                "summary": "Get links for header menu",
+                "operationId": "getHeaderNav",
+                "tags": [
+                "links"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                "$ref": "#/components/schemas/Dummy"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "test/data.json": {
+            "get": {
+                "summary": "Get test data",
+                "operationId": "getTestData",
+                "tags": [
+                "test"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                "$ref": "#/components/schemas/Dummy"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,52 +1,37 @@
-<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.19.5/swagger-ui.css" >
+    <style>
+      .topbar {
+        display: none;
+      }
+    </style>
+  </head>
 
-<head>
-    <title>forextrader.se API</title>
-    <meta name="api-baseurl" content="https://bullishvince.github.io/api.forextrader.se" />
-</head>
-
-<body>
-    <h1>Open read-only API used for <a href="https://forextrader.se">ForexTrader.se</a></h1>
-    <h2>Endpoints</h2>
-    <table>
-        <thead>
-            <th>Endpoint</th>
-            <th>URI</th>
-            <th>Description</th>
-        </thead>
-
-        <tr>
-            <td>test</td>
-            <td><a href="https://bullishvince.github.io/api.forextrader.se/test/data.json"></a></td>
-            <td>Only used for testing purposes</td>
-        </tr>
-
-    </table>
-</body>
-
-<style>
-    body {
-      font-family: arial;
-    }
-    tr {
-      display: flex;
-    }
-    thead {
-      display: flex;
-      background: gray;
-      color: white;
-    }
-    td {
-      width: 20%;
-      border: 1px solid #777;
-      padding: 10px;
-    }
-    th {
-        width: 20%;
-        border: 1px solid #777;
-        padding: 10px;
-    }
-    tr:nth-of-type(even) {
-      background: #efefef;
-    }
-</style>
+  <body>
+    <div id="swagger-ui"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.19.5/swagger-ui-bundle.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/3.19.5/swagger-ui-standalone-preset.js"> </script>
+    <script src="./swagger.js"> </script>
+    <script>
+      window.onload = function() {
+        const ui = SwaggerUIBundle({
+          spec: spec,
+          dom_id: '#swagger-ui',
+          deepLinking: true,
+          presets: [
+            SwaggerUIBundle.presets.apis,
+            SwaggerUIStandalonePreset
+          ],
+          plugins: [
+            SwaggerUIBundle.plugins.DownloadUrl
+          ],
+          layout: "StandaloneLayout"
+        })
+     
+        window.ui = ui
+      }
+  </script>
+  </body>
+</html>
