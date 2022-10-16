@@ -1,2 +1,2 @@
-import * as data from './swagger.json';
+import data from './swagger.json' assert {type: 'json'};;
 var spec = data;
